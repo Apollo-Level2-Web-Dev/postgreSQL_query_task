@@ -1,4 +1,4 @@
-```md
+
 # Online Bookstore Database
 
 ## TABLE CREATION INSTRUCTIONS
@@ -127,4 +127,3 @@ You'll need to write INSERT statements for each table.
 8. Find all customers whose email addresses end with `.com` and are from either USA or UK  
 9. For each customer, display their full name (first and last name combined), total number of orders, and total amount spent. Order by total amount spent (highest first)  
 10. Find the top 3 most expensive books that have been ordered at least once, showing the book title, author, price, and total quantity sold across all orders  
-```
