@@ -1,6 +1,7 @@
 # Answers
 
 ## 1
+
 | title                               | price |
 | ----------------------------------- | ----- |
 | Animal Farm                         | 10.99 |
@@ -19,6 +20,7 @@
 | The Lord of the Rings               | 29.99 |
 
 ## 2
+
 | country   |
 | --------- |
 | USA       |
@@ -30,6 +32,7 @@
 | Mexico    |
 
 # 3
+
 | book_id | title                  | author              | genre   | price | publication_year | stock_quantity |
 | ------- | ---------------------- | ------------------- | ------- | ----- | ---------------- | -------------- |
 | 1       | The Great Gatsby       | F. Scott Fitzgerald | Fiction | 12.99 | 1925             | 45             |
@@ -39,11 +42,20 @@
 | 12      | The Great Adventure    | John Anderson       | Fiction | 16.99 | 2020             | 18             |
 
 # 4
+
 | Success. No rows returned |
+
+- to verify run this query
+
+```
+SELECT * FROM customers LIMIT 1;
+
+```
 
 ### revert back for continuing tests **customer_first_name** TO **first_name**
 
 # 5
+
 | book_id | title                               | author         | genre   | price | publication_year | stock_quantity |
 | ------- | ----------------------------------- | -------------- | ------- | ----- | ---------------- | -------------- |
 | 6       | Harry Potter and the Sorcerer Stone | J.K. Rowling   | Fantasy | 19.99 | 1997             | 60             |
@@ -51,17 +63,20 @@
 | 9       | The Lord of the Rings               | J.R.R. Tolkien | Fantasy | 29.99 | 1954             | 41             |
 
 # 6
+
 | total_orders |
 | ------------ |
 | 18           |
 
 # 7
+
 | genre   | average_price |
 | ------- | ------------- |
 | Fantasy | 21.99         |
 | Mystery | 14.99         |
 
 # 8
+
 | customer_id | first_name | last_name | email                  | city        | country | registration_date |
 | ----------- | ---------- | --------- | ---------------------- | ----------- | ------- | ----------------- |
 | 1           | John       | Smith     | john.smith@email.com   | New York    | USA     | 2023-01-15        |
@@ -71,6 +86,7 @@
 | 7           | Ava        | Anderson  | ava.anderson@email.com | Los Angeles | USA     | 2023-03-18        |
 
 # 9
+
 | full_name     | email                  | city_lowercase |
 | ------------- | ---------------------- | -------------- |
 | AVA ANDERSON  | ava.anderson@email.com | los angeles    |
@@ -80,6 +96,7 @@
 | OLIVER TAYLOR | oliver.t@email.com     | london         |
 
 # 10
+
 | total_revenue | average_order_amount | maximum_order | minimum_order | total_orders_in_june |
 | ------------- | -------------------- | ------------- | ------------- | -------------------- |
 | 182.87        | 22.86                | 38.97         | 12.99         | 8                    |
